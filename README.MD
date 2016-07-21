@@ -26,3 +26,8 @@ email:
     password: # your_password
     to_addr: # []
 ```
+
+## PROBLEMS_TO_SOLVE
+
+`update_work_item()`方法中TFS要求提供cookie信息：__RequestVerificationToken
+保存登录后的cookie没有解决
